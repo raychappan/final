@@ -1,0 +1,87 @@
+body {
+	background-color: #8E2627;
+	color: #FAECA5;
+	font-family: 'Oswald', sans-serif;
+}
+h1 {font-family: 'Oswald', sans-serif;
+text-align: center;
+font-size: 70px;
+font-style: bold;
+}
+nav {
+	text-align: center;
+}
+a {
+	font-family: 'Oswald', sans-serif;
+	justify-content: space-between;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: #FAECA5;
+}
+
+h1:hover {
+  color: #D2AE18;
+  transform: .3s
+}
+h2:hover {
+  color: #D2AE18;
+  transform: .3s
+}
+
+a:hover{
+  color: #D2AE18;
+  transform: .3s
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+	width: 70%;
+  height: 40%;
+	margin-left: 190px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #FAECA5;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dots {
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #FAECA5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: #D2AE18;
+}
+.prev:hover, .next:hover {
+  background-color: #D2AE18;
+}
+
+img:hover {
+  transform: skew(-4deg);
+}
