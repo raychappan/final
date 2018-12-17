@@ -1,0 +1,55 @@
+body {
+	background-color:  #8E2627;
+	color: #FAECA5;
+	font-family: 'Oswald', sans-serif;
+}
+h1 {font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 70px;
+	font-style: bold;
+}
+nav {
+	text-align: center;
+}
+a {
+	font-family: 'Oswald', sans-serif;
+	justify-content: space-between;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: #FAECA5;
+}
+
+.upset {
+	display: block;
+	margin-left: : 100px;
+}
+
+img {
+	display: none;
+}
+
+
+div {
+	display: none;
+}
+
+img {
+	height: 80%;
+	width: 80%;
+	padding-left: 100px;
+}
+
+h1:hover {
+  color: #FF6347;
+  transform: .3s
+}
+h2:hover {
+  color: #FF6347;
+  transform: .3s
+}
+
+a:hover{
+  color: #FF6347;
+  transform: .3s
+}
